@@ -8,8 +8,7 @@ terraform {
 }
 
 provider "aws" {
-  # Configuration options
-  region = "ap-south-1a"
+  region = "ap-south-1"
 }
 
 module "vpc" {
